@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY Portfolio</title>
+  <link rel="icon" type="image/png" href="image/joke.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <div class="overlay" id="overlay"></div>
+
+  <nav class="navbar">
+    <a href="index.html"><img src="image/miniheart.png" alt="โลโก้" class="logo"></a>
+    <ul class="nav-links">
+      <li><a href="index.html">🏠Home</a></li>
+      <li><a href="about.html">🕵🏼‍♂️About</a></li>
+      <li><a href="contact.html">🤙🏼Contact</a></li>
+      <li><a href="#" id="menuBtn">📃Menu</a></li>
+    </ul>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+      <span></span><span></span><span></span>
+    </label>
+  </nav>
+  <div class="lorem">
+    ชื่อ : นายพาสิษฐ์ จันทร์ชมกลิ่น<br>
+        ชื่อเล่น : เปรม<br>
+        อายุ : 15ปี<br>
+        เกิดวันที่ : 18 มีนาคม พ.ศ.2553 <br>
+        เรียนอยู่ที่ : โรงเรียนบ้านค่ายระยอง<br>
+        ชอบกิน : กินหมด<br>
+        งานอดิเรก : เขียนเว็บ<br>
+        วิชาที่ชอบ : math <br>
+        วิชาที่ไม่ชอบ : science <br>
+        สีที่ชอบ : ม่วง ดำ ขาว <br>
+        ดอกไม้ที่ชอบ : daisy <br>
+        คำที่ชอบพูด : เลอะเทอะ <br>
+        รถที่ชอบ : honda lead ลูกโตสัก90 <br>
+        อาชีพที่อยากเป็น : full stack <br>
+        มหาลัยที่อยากเข้า : kmutt <br>
+        คณะที่อยากเข้า : วิศวกรรมศาสตร์<br>
+        สาขาที่อยากเรียน : วิศวหุ่นยนต์(FIBO) <br>
+  </div>
+  <div class="menu-items" id="menu-items">
+    <a href="index.html">🏠Home</a>
+    <a href="about.html">🕵🏼‍♂️About</a>
+    <a href="contact.html">🤙🏼Contact</a>
+    <div class="has-submenu">
+      <button id="toggle-submenu" class="submenu-toggle">
+        📃Menu <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="submenu submenu-hidden" id="submenu">
+        <a href="#">social studies</a>
+        <a href="#">Math</a>
+        <a href="#">Science</a>
+      </div>
+    <div class="has-submenu">
+      <button id="toggle-port" class="submenu-toggle">
+      📃Portflio <i class="fa fa-caret-down"></i>
+      </button>
+      <div id="submenu-port" class="submenu submenu-hidden">
+        <a href="master.html">Master piece</a>
+        <a href="otw.html">Other works</a>
+        <a href="#">Do good deeds</a>
+      </div>
+    </div>
+  </div>
+  
+<div class="slide-text"></div>
+
+
+  <script src="about.js"></script>
+</body>
+</html>
